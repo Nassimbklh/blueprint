@@ -3,6 +3,6 @@ services:
   - type: web
     name: monservice
     runtime: node
-    repo: https://github.com/Nassimbklh/blueprint.git
     plan: free
+    buildCommand: npm install
     startCommand: npm start
