@@ -1,10 +1,8 @@
 services:
+  # Un service web gratuit
   - type: web
-    name: vincent
+    name: monservice
     runtime: node
     repo: https://github.com/Nassimbklh/blueprint.git
-    region: eu-central
-    plan: starter
-    branch: main
-    rootDir: /
-    numInstances: 1
+    plan: free
+    startCommand: npm start
