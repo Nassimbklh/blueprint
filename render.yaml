@@ -1,0 +1,11 @@
+service: 
+  type: web
+  name: vincent
+  runtime: node
+  repo: https://github.com/Nassimbklh/blueprint.git
+  region: eu-central
+  plan: starter
+  branch: main
+  rootDir: /
+  numInstances: 1
+  healthCheckPath: / 
