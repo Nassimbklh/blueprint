@@ -11,6 +11,6 @@ services:
     startCommand: npm start
 
   database:
-    - name: cloud-db
+    - name: cloud_db
       region: frankfurt
     
