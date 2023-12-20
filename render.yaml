@@ -2,7 +2,15 @@ services:
   # Un service web gratuit
   - type: web
     name: monservice
+    region: frankfurt
     runtime: node
     plan: free
+    repo: https://github.com/Nassimbklh/blueprint.git
+    branch: master
     buildCommand: npm install
     startCommand: npm start
+
+  database:
+    - name: cloud-db
+      region: frankfurt
+    
