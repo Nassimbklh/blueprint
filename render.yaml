@@ -10,7 +10,10 @@ services:
     buildCommand: npm install
     startCommand: npm start
 
-  database:
-    - name: cloud_db
-      region: frankfurt
+database:
+  - name: cloud_db
+    region: frankfurt
+    plan: free
+    databaseName: cloud
+    user: cloud
     
