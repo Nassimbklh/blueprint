@@ -18,7 +18,7 @@ services:
 databases:
   - name: cloud-db
     region: frankfurt
-    databaseName: cloud
-    user: cloud
+    #databaseName: cloud
+    #user: cloud
     plan: free
 
