@@ -1,7 +1,7 @@
 services:
   # Un service web gratuit
   - type: web
-    name: monservice
+    name: test
     region: frankfurt
     runtime: node
     plan: free
